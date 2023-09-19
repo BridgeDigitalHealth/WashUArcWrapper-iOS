@@ -22,9 +22,9 @@ let package = Package(
                  from: "2.2.0"),
         
         // Dependencies required to connect to Bridge/Synapse
-        .package(url: "https://github.com/Sage-Bionetworks/BridgeClientKMM.git",
+        .package(url: "https://github.com/BridgeDigitalHealth/BridgeClientKMM.git",
                  from: "0.18.0"),
-        .package(url: "https://github.com/Sage-Bionetworks/JsonModel-Swift.git",
+        .package(url: "https://github.com/BridgeDigitalHealth/JsonModel-Swift.git",
                  from: "2.0.0"),
     ],
     targets: [
