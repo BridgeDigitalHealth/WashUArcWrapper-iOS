@@ -2,7 +2,11 @@
 //  ArcAssessmentManager.swift
 //
 
-import Foundation
+import SwiftUI
+import AssessmentModelUI
+import BridgeClient
+import BridgeClientExtension
+import BridgeClientUI
 import Arc
 
 public final class ArcAssessmentManager {
@@ -48,5 +52,29 @@ public enum ARCIdentifier: String, CaseIterable {
         case .grids:
             return URL(string: "https://github.com/CTRLab-WashU/ArcAssessmentsiOS/blob/0076b71cf018547c8c5f09946a3e050dbe41aecb/Arc/Resources/example_schema_grids.json")!
         }
+    }
+}
+
+extension ARCIdentifier : AssessmentInfoExtension {
+    
+    public var assessmentIdentifier: String { self.rawValue }
+    
+    public func title() -> SwiftUI.Text {
+        switch self {
+        case .grids:
+            return Text("Grids")
+        case .prices:
+            return Text("Prices")
+        case .symbols:
+            return Text("Symbols")
+        }
+    }
+    
+    public func icon() -> ContentImage {
+        .init(self.rawValue, bundle: .module)
+    }
+    
+    public func color() -> Color {
+        .accentColor
     }
 }

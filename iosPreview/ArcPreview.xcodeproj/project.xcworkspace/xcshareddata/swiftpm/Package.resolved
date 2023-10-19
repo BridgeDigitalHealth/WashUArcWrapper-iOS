@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "arcassessmentsios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CTRLab-WashU/ArcAssessmentsiOS.git",
+      "state" : {
+        "revision" : "fe2df633ceb8e172b92de436741c914a875c353e",
+        "version" : "2.2.1"
+      }
+    },
+    {
+      "identity" : "assessmentmodelkmm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BridgeDigitalHealth/AssessmentModelKMM.git",
+      "state" : {
+        "revision" : "c69c70ccec06a41936a748057933922e94521d26",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "bridgearchiver-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BridgeDigitalHealth/BridgeArchiver-Swift.git",
+      "state" : {
+        "revision" : "9fce5d2c7e1134c9c486b3eedfb2ba4dc337263a",
+        "version" : "0.3.2"
+      }
+    },
+    {
+      "identity" : "bridgeclientkmm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BridgeDigitalHealth/BridgeClientKMM.git",
+      "state" : {
+        "revision" : "720c2fe215f3c236e195a2023d0773bfdf54e858",
+        "version" : "0.19.2"
+      }
+    },
+    {
+      "identity" : "cmssupport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Sage-Bionetworks/CMSSupport.git",
+      "state" : {
+        "revision" : "99ef4bcead679b83ee6b5414fd79992478f6c311",
+        "version" : "1.2.3"
+      }
+    },
+    {
+      "identity" : "jsonmodel-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BridgeDigitalHealth/JsonModel-Swift.git",
+      "state" : {
+        "revision" : "5d9acc0f5c1779cca3a31ca1913d684406e74f1f",
+        "version" : "2.3.1"
+      }
+    },
+    {
+      "identity" : "mobilepassivedata-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BridgeDigitalHealth/MobilePassiveData-SDK.git",
+      "state" : {
+        "revision" : "74a1f99da8f8c017d0a5adbb3584be81bb1cd9a8",
+        "version" : "1.6.2"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "a3f5c2bae0f04b0bce9ef3c4ba6bd1031a0564c4",
+        "version" : "0.9.17"
+      }
+    }
+  ],
+  "version" : 2
+}
