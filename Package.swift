@@ -36,6 +36,9 @@ let package = Package(
                 .product(name: "Arc", package: "ArcAssessmentsiOS"),
                 .product(name: "JsonModel", package: "JsonModel-Swift"),
                 .product(name: "BridgeClient", package: "BridgeClientKMM"),
+            ],
+            resources: [
+                .process("Resources")
             ]
         ),
         .testTarget(
