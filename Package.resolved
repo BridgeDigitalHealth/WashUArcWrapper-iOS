@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CTRLab-WashU/ArcAssessmentsiOS.git",
       "state" : {
-        "revision" : "fe2df633ceb8e172b92de436741c914a875c353e",
-        "version" : "2.2.1"
+        "revision" : "b43a797af22dd814d7632bb556b11580cd9e41a2",
+        "version" : "2.3.0"
       }
     },
     {

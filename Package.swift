@@ -19,7 +19,7 @@ let package = Package(
         
         // Dependencies required to support *this* assessment wrapper
         .package(url: "https://github.com/CTRLab-WashU/ArcAssessmentsiOS.git",
-                 from: "2.2.0"),
+                 from: "2.3.0"),
         
         // Dependencies required to connect to Bridge/Synapse
         .package(url: "https://github.com/BridgeDigitalHealth/BridgeClientKMM.git",
